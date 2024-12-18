@@ -1,8 +1,8 @@
-read -p "Hostname:" hostname
+#!/bin/bash
 
-read -p "Host IP Address:" ipAddress
-
-read -p "Password:" passwd
+hostname=$1
+ipAddress=$2
+passwd=$3
 
 echo "Transferring key..."
 
